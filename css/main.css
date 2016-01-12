@@ -17,6 +17,7 @@ aside, footer, header, nav, section {
 
 nav {
     text-align: center;
+    background-color: rgb(16,17,18);
 }
 
 nav ul {
@@ -32,16 +33,35 @@ nav li {
 nav a {
     font-size: 20px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 /*==========  Header  ==========*/
 
 /*==========  Main Content  ==========*/
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*==========  Footer  ==========*/
 
-/*==========  For Desktop First  ==========*/
+footer {
+    background-color: rgb(16,17,18);
+    padding: 20px 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-tag {
+    text-align: center;
+    color: #fff;
+}
+
+/*==========  Media Queries  ==========*/
 
 @media only screen and (max-width : 1200px) {
 
@@ -116,30 +136,16 @@ nav a {
 
 @media only screen and (max-width : 480px) {
 
+    footer {
+        text-align: center;
+    }
+
+    .footer-tag {
+        display: block;
+        float: none;
+    }
 }
 
 @media only screen and (max-width : 320px) {
-
-}
-
-/*==========  For Mobile First  ==========*/
-
-@media only screen and (min-width : 320px) {
-
-}
-
-@media only screen and (min-width : 480px) {
-
-}
-
-@media only screen and (min-width : 768px) {
-
-}
-
-@media only screen and (min-width : 992px) {
-
-}
-
-@media only screen and (min-width : 1200px) {
 
 }
