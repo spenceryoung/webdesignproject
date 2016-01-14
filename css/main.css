@@ -19,7 +19,6 @@ nav {
     position: absolute;
     width: 100%;
     text-align: center;
-    z-index: 99;
 }
 
 nav ul {
@@ -232,9 +231,9 @@ footer {
         width: 100%;
         display: none;
         text-align: center;
-        margin-top: 48px;
+        margin-top: 58px;
         background-color: #000;
-        z-index: 99;
+        z-index: 1;
     }
 
     .side-menu a {
@@ -245,9 +244,6 @@ footer {
 
     .side-menu li {
         padding: 20px 0;
-    }
-
-    .side-menu li:not(:last-child) {
         border-bottom: 1px solid #fff;
     }
 
