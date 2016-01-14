@@ -37,6 +37,10 @@ nav a {
     color: #fff;
 }
 
+.active-tab {
+    border-bottom: 5px solid white;
+}
+
 /*==========  Header  ==========*/
 
 /*==========  Main Content  ==========*/
@@ -204,7 +208,7 @@ footer {
         display: block;
         position: fixed;
         width: 100%;
-        background-color: #000;
+        background-color: rgb(16,17,18);
         border-bottom: 1px solid #fff;
         z-index: 99;
 
@@ -232,7 +236,7 @@ footer {
         display: none;
         text-align: center;
         margin-top: 58px;
-        background-color: #000;
+        background-color: rgb(16,17,18);
         z-index: 1;
     }
 
