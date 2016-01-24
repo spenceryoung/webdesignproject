@@ -141,6 +141,11 @@ h1 {
     padding: 50px 0;
 }
 
+.intro-sentence p {
+    max-width: 900px;
+    margin: auto;
+}
+
 /*==========  Footer  ==========*/
 
 footer {

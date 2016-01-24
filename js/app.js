@@ -8,28 +8,28 @@ app.config([
     '$routeProvider',
     function($routeProvider) {
         $routeProvider
-        .when('/one', {
+        .when('/home', {
             templateUrl: 'partials/one.html',
             controller: 'OneCtrl'
         })
-        .when('/two', {
+        .when('/angularjs', {
             templateUrl: 'partials/two.html',
             controller: 'TwoCtrl'
         })
-        .when('/three', {
+        .when('/jquery', {
             templateUrl: 'partials/three.html',
             controller: 'ThreeCtrl'
         })
-        .when('/four', {
+        .when('/css', {
             templateUrl: 'partials/four.html',
             controller: 'FourCtrl'
         })
-        .when('/five', {
+        .when('/mithril', {
             templateUrl: 'partials/five.html',
             controller: 'FiveCtrl'
         })
         .otherwise({
-            redirectTo: '/one'
+            redirectTo: '/home'
         });
     }
 ]);
