@@ -45,6 +45,8 @@ nav a {
 
 /*==========  Main Content  ==========*/
 
+/*=====  Global  =====*/
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -146,6 +148,26 @@ h1 {
     margin: auto;
 }
 
+/*=====  Home  =====*/
+
+.text-color-columns {
+    color: #422961;
+}
+
+.text-column, .color-column {
+    width: 50%;
+    display: inline-block;
+}
+
+.color-column {
+    background-color: #422961;
+}
+
+/*=====  AngularJS  =====*/
+/*=====  jQuery  =====*/
+/*=====  CSS3  =====*/
+/*=====  Mithril  =====*/
+
 /*==========  Footer  ==========*/
 
 footer {
@@ -187,7 +209,6 @@ footer {
     padding-right: 5.5px;
     font-size: 16px;
 }
-
 
 /*==========  Media Queries  ==========*/
 
