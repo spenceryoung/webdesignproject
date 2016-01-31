@@ -52,16 +52,6 @@ body {
     color: #fff;
 }
 
-/*body:after {
-    display:none;
-    content:
-        url("../assets/images/photo-1441644599508-24ae08965c5c.jpg")
-        url("../assets/images/photo-1440635592348-167b1b30296f.jpg")
-        url("../assets/images/photo-1428999418909-363f8e091c50.jpg")
-        url("../assets/images/photo-1439074216907-51e7025705db.jpg")
-        url("../assets/images/photo-1445964047600-cdbdb873673d.jpg");
-}*/
-
 .hero-image {
     width: 100%;
     height: 70vh;
@@ -137,6 +127,7 @@ h1 {
 }
 
 .intro-sentence {
+    line-height: 1.5;
     background-color: rgb(16,17,18);
     text-align: center;
     font-size: 30px;
