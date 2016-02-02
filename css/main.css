@@ -108,8 +108,8 @@ body {
         rgba(0, 0, 0, .2)
     ),
     url("../assets/images/photo-1440262206549-8fe2c3b8bf8f-min.jpg");
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center bottom;
 }
 

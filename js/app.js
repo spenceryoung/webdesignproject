@@ -20,7 +20,7 @@ app.config([
             templateUrl: 'partials/three.html',
             controller: 'ThreeCtrl'
         })
-        .when('/css', {
+        .when('/css3', {
             templateUrl: 'partials/four.html',
             controller: 'FourCtrl'
         })
