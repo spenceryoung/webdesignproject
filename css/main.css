@@ -113,7 +113,8 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 70px;
     position: relative;
     width: 100%;
     text-align: center;
