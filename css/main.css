@@ -107,8 +107,9 @@ body {
         rgba(0, 0, 0, .2),
         rgba(0, 0, 0, .2)
     ),
-    url("../assets/images/photo-1445964047600-cdbdb873673d.jpg");
+    url("../assets/images/photo-1440262206549-8fe2c3b8bf8f-min.jpg");
     background-attachment: fixed;
+    background-size: cover;
     background-position: center bottom;
 }
 
