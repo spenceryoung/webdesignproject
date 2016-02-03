@@ -169,7 +169,8 @@ h1 {
 }
 
 .text-column a:hover {
-
+    text-shadow: 0px -2px 0px #333,
+    0px 2px 3px #666;
 }
 
 .text-column {
