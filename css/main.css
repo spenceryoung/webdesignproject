@@ -152,6 +152,8 @@ h1 {
 }
 
 .text-column {
+    max-width: 450px;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #000;
 }
 
