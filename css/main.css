@@ -151,16 +151,28 @@ h1 {
     margin: auto;
 }
 
-.text-column {
-    max-width: 450px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #000;
-}
-
 .language-column, .text-column {
     text-align: center;
     width: 50%;
     display: inline-block;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/*=====  AngularJS  =====*/
+
+.text-column {
+    max-width: 548px;
+    padding: 50px 0;
+    font-size: 21px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: #000;
 }
 
 .language-column div {
@@ -180,15 +192,38 @@ h1 {
     0px 2px 3px #666;
 }
 
-.left {
-    float: left;
-}
-.right {
-    float: right;
+/*=====  jQuery  =====*/
+
+.modal-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-transform: scale3d(0,0,0);
+    -ms-transform: scale3d(0,0,0);
+    transform: scale3d(0,0,0);
+    -webkit-transition: transform .3s ease-in-out;
+    -ms-transition: transform .3s ease-in-out;
 }
 
-/*=====  AngularJS  =====*/
-/*=====  jQuery  =====*/
+.modal-window.show {
+    -webkit-transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+
 /*=====  CSS3  =====*/
 /*=====  Mithril  =====*/
 
