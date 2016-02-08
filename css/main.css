@@ -192,6 +192,12 @@ h1 {
     0px 2px 3px #666;
 }
 
+.code-snippet {
+    max-width: 462px;
+    margin: auto;
+    color: black;
+}
+
 /*=====  jQuery  =====*/
 
 .modal-window {
