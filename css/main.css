@@ -144,6 +144,10 @@ h1 {
     margin: auto;
 }
 
+.hidden {
+    display: none;
+}
+
 /*=====  Home  =====*/
 
 .max-width {
@@ -212,42 +216,19 @@ h1 {
 
 /*=====  jQuery  =====*/
 
-.modal-window {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: rgb(16,17,18);
-    background: rgba(0,0,0,.5);
-    display: none;
-}
-.modal-content {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 960px;
-    margin: auto;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background-color: #fff;
+.top {
+    margin-top: 4px;
 }
 
-.grid {
-    line-height: 0;
+.grid a {
+    text-decoration: none;
 }
 
 .grid img {
-    width: 50%;
+    width: 397px;
 }
 
-.grid img:hover {
-    cursor: pointer;
-}
+
 
 /*=====  CSS3  =====*/
 /*=====  Mithril  =====*/
