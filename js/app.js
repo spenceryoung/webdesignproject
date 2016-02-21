@@ -16,7 +16,7 @@ app.config([
             templateUrl: 'partials/two.html',
             controller: 'TwoCtrl'
         })
-        .when('/jquery', {
+        .when('/fancybox', {
             templateUrl: 'partials/three.html',
             controller: 'ThreeCtrl'
         })

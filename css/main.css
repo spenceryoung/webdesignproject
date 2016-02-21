@@ -231,6 +231,21 @@ h1 {
 
 
 /*=====  CSS3  =====*/
+
+.gradient-background {
+  background: red;
+  background: -webkit-linear-gradient(left, red , yellow);
+  background: -o-linear-gradient(right, red, yellow);
+  background: -moz-linear-gradient(right, red, yellow);
+  background: linear-gradient(to right, red , yellow);
+}
+
+.gradient-background p {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 40px;
+}
+
 /*=====  Mithril  =====*/
 
 /*==========  Footer  ==========*/
