@@ -214,7 +214,7 @@ h1 {
     color: black;
 }
 
-/*=====  jQuery  =====*/
+/*=====  Fancybox  =====*/
 
 .top {
     margin-top: 4px;
@@ -229,21 +229,46 @@ h1 {
 }
 
 
-
 /*=====  CSS3  =====*/
 
 .gradient-background {
-  background: red;
-  background: -webkit-linear-gradient(left, red , yellow);
-  background: -o-linear-gradient(right, red, yellow);
-  background: -moz-linear-gradient(right, red, yellow);
-  background: linear-gradient(to right, red , yellow);
+  background: #00346C;
+  background: -webkit-linear-gradient(left, #00346C, #7EA9C7);
+  background: -o-linear-gradient(right, #00346C, #7EA9C7);
+  background: -moz-linear-gradient(right, #00346C, #7EA9C7);
+  background: linear-gradient(to right, #00346C, #7EA9C7);
 }
 
 .gradient-background p {
     text-align: center;
     padding: 100px 0;
     font-size: 40px;
+}
+
+.animation-box {
+    height: 200px;
+    width: 200px;
+    animation-direction: normal;
+}
+
+.box-container {
+    width: 100%;
+}
+
+#box-1 {
+    background-color: blue;
+}
+
+#box-2 {
+    background-color: green;
+}
+
+#box-3 {
+    background-color: red;
+}
+
+#box-4 {
+    background-color: purple;
 }
 
 /*=====  Mithril  =====*/
