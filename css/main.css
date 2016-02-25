@@ -247,12 +247,30 @@ h1 {
   background: linear-gradient(to right, #00346C, #7EA9C7);
 }
 
-.box-container {
-    width: 100%;
+.gradient-background p {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 40px;
+}
+
+.animation-box {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.box-container, .animation-boxes {
+    position: relative;
+}
+
+#box-1 {
+    position: absolute;
 }
 
 #box-1 {
     background-color: blue;
+    /*-webkit-animation:movingbox 5s infinite;
+    animation:movingbox 5s infinite;*/
 }
 
 #box-2 {
@@ -266,6 +284,18 @@ h1 {
 #box-4 {
     background-color: purple;
 }
+
+/*@-webkit-keyframes movingbox {
+  0%{left:0%;}
+  50%{left:100%;}
+  100%{left:0%;}
+}
+
+@keyframes movingbox {
+  0%{left:0%;}
+  50%{left:100%;}
+  100%{left:0%;}
+}*/
 
 /*=====  Flexbox  =====*/
 
