@@ -256,15 +256,21 @@ h1 {
 .animation-box {
     height: 200px;
     width: 200px;
-    animation-direction: normal;
+    position: relative;
 }
 
-.box-container {
-    width: 100%;
+.box-container, .animation-boxes {
+    position: relative;
+}
+
+#box-1 {
+    position: absolute;
 }
 
 #box-1 {
     background-color: blue;
+    /*-webkit-animation:movingbox 5s infinite;
+    animation:movingbox 5s infinite;*/
 }
 
 #box-2 {
@@ -279,7 +285,43 @@ h1 {
     background-color: purple;
 }
 
-/*=====  Mithril  =====*/
+/*@-webkit-keyframes movingbox {
+  0%{left:0%;}
+  50%{left:100%;}
+  100%{left:0%;}
+}
+
+@keyframes movingbox {
+  0%{left:0%;}
+  50%{left:100%;}
+  100%{left:0%;}
+}*/
+
+/*=====  Flexbox  =====*/
+
+.flexible-boxes-container {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flexible-boxes {
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: #000;
+}
 
 /*==========  Footer  ==========*/
 

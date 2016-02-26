@@ -24,7 +24,7 @@ app.config([
             templateUrl: 'partials/four.html',
             controller: 'FourCtrl'
         })
-        .when('/mithril', {
+        .when('/flexbox', {
             templateUrl: 'partials/five.html',
             controller: 'FiveCtrl'
         })
