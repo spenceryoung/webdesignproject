@@ -373,6 +373,14 @@ footer {
 
 @media only screen and (max-width : 992px) {
 
+    .hero-image-2, .hero-image-3, .hero-image-4, .hero-image-5 {
+        background-attachment: scroll;
+    }
+
+    .intro-sentence {
+        font-size: 28px;
+    }
+
 }
 
 @media only screen and (max-width : 768px) {
@@ -452,16 +460,33 @@ footer {
 
     /*=====  Global  =====*/
 
-    /*=====  Home  =====*/
+    h1 {
+        font-size: 35px;
+    }
 
     .intro-sentence {
         padding: 15px 0;
+        font-size: 21px;
     }
 
     .text-column {
         float: none;
         width: 100%;
         height: 190px;
+    }
+
+    .left, .right {
+        float: none;
+    }
+
+    /*=====  Home  =====*/
+
+    .language-column a {
+        font-size: 40px;
+    }
+
+    .language-column {
+        width: 100%;
     }
 
     /*=====  Footer  =====*/
