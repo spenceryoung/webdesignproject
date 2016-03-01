@@ -204,8 +204,8 @@ h1 {
 }
 
 .code-snippet {
-    margin-top: 4px;
     display: inline-block;
+    vertical-align:text-bottom;
 }
 
 .code-sentence {
@@ -220,6 +220,10 @@ h1 {
     font-size: 24px;
     line-height: 1.5;
     padding: 179px 0;
+}
+
+.image-align-center {
+    text-align: center;
 }
 
 /*=====  Fancybox  =====*/
@@ -249,62 +253,49 @@ h1 {
 
 .gradient-background p {
     text-align: center;
-    padding: 100px 0;
+    padding: 120.5px 0;
     font-size: 40px;
 }
 
-.animation-box {
+.box-container {
+    padding: 10px 0;
+}
+
+#box-1 {
     height: 200px;
-    width: 200px;
-    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #88A825;
+    -webkit-animation: colorchange 10s infinite;
+    animation: colorchange 10s infinite;
+
 }
 
-.box-container, .animation-boxes {
-    position: relative;
+@-webkit-keyframes colorchange {
+    0%   {background-color: #88A825;}
+    25%  {background-color: #35203B;}
+    50%  {background-color: #911146;}
+    75%  {background-color: #CF4A30;}
 }
 
-#box-1 {
-    position: absolute;
+@keyframes colorchange {
+    0%   {background-color: #88A825;}
+    25%  {background-color: #35203B;}
+    50%  {background-color: #911146;}
+    75%  {background-color: #CF4A30;}
 }
-
-#box-1 {
-    background-color: blue;
-    /*-webkit-animation:movingbox 5s infinite;
-    animation:movingbox 5s infinite;*/
-}
-
-#box-2 {
-    background-color: green;
-}
-
-#box-3 {
-    background-color: red;
-}
-
-#box-4 {
-    background-color: purple;
-}
-
-/*@-webkit-keyframes movingbox {
-  0%{left:0%;}
-  50%{left:100%;}
-  100%{left:0%;}
-}
-
-@keyframes movingbox {
-  0%{left:0%;}
-  50%{left:100%;}
-  100%{left:0%;}
-}*/
 
 /*=====  Flexbox  =====*/
 
-.flexible-boxes-container {
+.flexible-boxes-container, .flexible-area-container {
     padding: 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+}
+
+.flexible-boxes-container {
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
@@ -320,7 +311,29 @@ h1 {
     width: 280px;
     height: 280px;
     border-radius: 10px;
-    background-color: #000;
+}
+
+.flexible-area {
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.green {
+    background-color: #88A825;
+}
+
+.purple {
+    background-color: #35203B;
+}
+
+.pink {
+    background-color: #911146;
+}
+
+.orange {
+    background-color: #CF4A30;
 }
 
 /*==========  Footer  ==========*/
@@ -481,6 +494,10 @@ footer {
 
     /*=====  Home  =====*/
 
+    .language-container {
+        padding: 50px 0;
+    }
+
     .language-column a {
         font-size: 40px;
     }
@@ -489,13 +506,29 @@ footer {
         width: 100%;
     }
 
+    .language-column div {
+        padding: 50px 0;
+    }
+
+
+    /*=====  Fancybox  =====*/
+
+    .top {
+        margin-top: 0;
+    }
+
     /*=====  Footer  =====*/
 
     footer {
         text-align: center;
     }
 
+    .social-networking-links a {
+        font-size: 20px;
+    }
+
     .footer-tag {
+        padding-top: 13px;
         display: block;
         float: none;
         font-size: 12px;
@@ -503,6 +536,7 @@ footer {
 
     .footer-tag a {
         font-size: 12px;
+        padding-right: 4px;
     }
 }
 
