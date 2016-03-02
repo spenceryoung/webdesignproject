@@ -226,6 +226,10 @@ h1 {
     text-align: center;
 }
 
+.code-snippet-container {
+    padding: 50px 0;
+}
+
 /*=====  Fancybox  =====*/
 
 .top {
@@ -261,6 +265,24 @@ h1 {
     padding: 10px 0;
 }
 
+.animation-boxes {
+    padding: 10px 0;
+}
+
+.animation-box p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 #box-1 {
     height: 200px;
     width: 100%;
@@ -268,7 +290,26 @@ h1 {
     background-color: #88A825;
     -webkit-animation: colorchange 10s infinite;
     animation: colorchange 10s infinite;
+}
 
+#box-2 {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #000;
+    -webkit-animation: rotate 7s infinite;
+    animation: rotate 7s infinite;
+
+}
+
+#box-3 {
+    position: relative;
+    height: 200px;
+    width: 50%;
+    background-color: #00346C;
+    border-radius: 10px;
+    -webkit-animation: move 10s infinite;
+    animation: move 10s infinite;
 }
 
 @-webkit-keyframes colorchange {
@@ -283,6 +324,32 @@ h1 {
     25%  {background-color: #35203B;}
     50%  {background-color: #911146;}
     75%  {background-color: #CF4A30;}
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotateX(360deg);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        /*-webkit-transform: rotateX(360deg);*/
+        transform:rotateX(360deg);
+    }
+}
+
+@-webkit-keyframes move {
+    0%{left: 0px;}
+    50%{left: 600px;}
+    100%{left: 0px;}
+}
+
+/* Standard syntax */
+@keyframes move {
+    0%{left: 0px;}
+    50%{left: 600px;}
+    100%{left: 0px;}
 }
 
 /*=====  Flexbox  =====*/
