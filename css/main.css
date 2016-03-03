@@ -636,6 +636,9 @@ footer {
 
     .animation-boxes {
         margin: 0 10px;
+    }
+
+    #box-2, #box-3 {
         -webkit-transform: translate3d();
     }
 
