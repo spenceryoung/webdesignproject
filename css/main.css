@@ -290,7 +290,6 @@ h1 {
     background-color: #88A825;
     -webkit-animation: colorchange 10s infinite;
     animation: colorchange 10s infinite;
-    -webkit-transform: translate3d(0,0,0);
 }
 
 #box-2 {
@@ -330,14 +329,14 @@ h1 {
 
 @-webkit-keyframes rotate {
     100% {
-        -webkit-transform: rotateY(360deg);
+        -webkit-transform: rotateX(360deg);
     }
 }
 
 @keyframes rotate {
     100% {
-        /*-webkit-transform: rotateX(360deg);*/
-        transform:rotateY(360deg);
+        -webkit-transform: rotateX(360deg);
+        transform:rotateX(360deg);
     }
 }
 
