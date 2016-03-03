@@ -290,6 +290,7 @@ h1 {
     background-color: #88A825;
     -webkit-animation: colorchange 10s infinite;
     animation: colorchange 10s infinite;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 #box-2 {
@@ -299,6 +300,7 @@ h1 {
     background-color: #000;
     -webkit-animation: rotate 7s infinite;
     animation: rotate 7s infinite;
+    -webkit-transform: translate3d(0,0,0);
 
 }
 
@@ -328,14 +330,14 @@ h1 {
 
 @-webkit-keyframes rotate {
     100% {
-        -webkit-transform: rotateX(360deg);
+        -webkit-transform: rotateY(360deg);
     }
 }
 
 @keyframes rotate {
     100% {
         /*-webkit-transform: rotateX(360deg);*/
-        transform:rotateX(360deg);
+        transform:rotateY(360deg);
     }
 }
 
@@ -636,10 +638,6 @@ footer {
 
     .animation-boxes {
         margin: 0 10px;
-    }
-
-    #box-2, #box-3 {
-        -webkit-transform: translate3d(0,0,0);
     }
 
     /*=====  Footer  =====*/
