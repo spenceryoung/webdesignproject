@@ -453,7 +453,7 @@ footer {
 
 @media only screen and (max-width : 992px) {
 
-    .hero-image-2, .hero-image-3, .hero-image-4, .hero-image-5 {
+    .hero-image-1, .hero-image-2, .hero-image-3, .hero-image-4, .hero-image-5 {
         background-attachment: scroll;
     }
 
