@@ -529,6 +529,8 @@ footer {
         margin-top: 58px;
         background-color: rgb(16,17,18);
         z-index: 1;
+        transform: translateZ(1000px);
+        transform-style: preserve-3d;
     }
 
     .side-menu a {
@@ -636,10 +638,6 @@ footer {
 
     .animation-boxes {
         margin: 0 10px;
-    }
-
-    #box-2, #box-3 {
-        -webkit-transform: translate3d();
     }
 
     /*=====  Footer  =====*/
