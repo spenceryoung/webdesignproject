@@ -572,7 +572,10 @@ footer {
         float: none;
         width: 100%;
         height: 190px;
+    }
 
+    .text-column p {
+        padding: 0 10px;
     }
 
     .left, .right {
