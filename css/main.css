@@ -471,6 +471,25 @@ footer {
         padding-top: 58px;
     }
 
+    .nav-home {
+        float: left;
+        position: absolute;
+        padding-left: 20px;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .nav-home a {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 35px;
+        text-decoration: none;
+        color: #fff;
+    }
+
     nav {
         display: none;
     }
@@ -486,6 +505,7 @@ footer {
     }
 
     .side-menu-btn {
+        display: inline-block;
         float: right;
         padding: 20px;
     }
